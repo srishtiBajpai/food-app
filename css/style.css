@@ -29,6 +29,9 @@ a{
   
 }
 
+.bar-icon{
+    display:none
+}
 
 
 .navigation{
@@ -37,12 +40,14 @@ a{
     position:fixed;
     /* left: 42rem; */
     padding:0.1rem;
-    padding-top:2rem;
+    padding-top:1.7rem;
     padding-left: 46rem;
     background-color: transparent;
    width:100%; 
-  
 }
+
+
+
 .bar-icon{
     display:none;
 }

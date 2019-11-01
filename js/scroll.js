@@ -5,13 +5,14 @@
 
             if($(window).scrollTop()>5)
             {
-              $(".navigation").css("display","none")
+              $(".nav-line").css("display","none")
               // $(".bar-icon").css("display","none")
             }
 
             else 
             {
-              $(".navigation").css("display","flex")
+              $(".nav-line").css("display","flex")
+
               // $(".bar-icon").css("display","flex")
             }
             
@@ -19,17 +20,17 @@
                 if($(window).scrollTop()>$("header").height() )
                   {    
                   $(".navigation").css("background-color","white");
-                  // $(".bar-icon").css("background-color","white");
+                  $(".bar-icon").css("background-color","white");
                   $(".white-anchor").css("color","black");
-                  // $(".bar-icon").css("color","black");
-                  $(".navigation").css("display","flex");
+                  $(".bar-icon").css("color","black");
+                  $(".nav-line").css("display","flex");
                   }
                   else  
                   {
                   $(".white-anchor").css("color","white");
-                  // $(".bar-icon").css("color","white");
+                  $(".bar-icon").css("color","white");
                   $(".navigation").css("background-color","transparent"); 
-                  // $(".bar-icon").css("background-color","transparent");             
+                  $(".bar-icon").css("background-color","transparent");             
                   }
 
                 
