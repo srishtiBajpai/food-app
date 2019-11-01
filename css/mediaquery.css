@@ -2,24 +2,30 @@
 /* mobiles */
 @media only screen and (max-width:600px)
 {
+   
     body{
+    box-sizing: border-box;
         overflow-x: hidden;
     }
-     .background-header{
+     .background-header
+     {
         background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/forMobile.jpg) ;
-        /* height: 100vh;
-        background-size:100%;
-        background-attachment: fixed; */
-      
+        background-attachment: fixed;
     } 
+
     .navigation{
         padding-left:1rem;
         display:flex;
-        position: fixed;
-        
+        position: fixed; 
     }
 
-    
+    .nextdiv
+{
+    font-size: 1.6rem;
+}
+
+ 
+
 .nav-line{
     padding-bottom:0.2rem;
     display: flex;;
@@ -27,14 +33,33 @@
   
 }
 
+
+.briefing{
+    font-weight:0.4rem;
+    font-size:1.1rem;
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;  
+}
+
+.f1inside{
+    font-weight: 1.5rem;
+    font-size:1rem;
+   
+}
+
      .flexes{
          display: inline-block;
          width:100%;
+         padding:0.4rem;
      }
+
+     .float1{
+        padding: 1rem;
+    }
 
      .tag-line{
         font-size:1.5rem;
-        
         font-weight:0.1rem;
         padding-bottom: 3.2rem;
        top:16rem;
@@ -50,6 +75,102 @@
     background-color:transparent;
 
 }
+
+.background-next{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/mobileFooter.jpg) ;
+    height: 160vh;
+    background-size:100%;
+  
+}
+
+.text{
+    text-align: center;
+    color:#34495e;
+    font-weight: 0.25rem;
+    font-size: 1.2rem;
+    padding:0.6rem;
+    }
+
+
+
+.overpic{
+    font-size: 1.2rem;
+    padding-top:3rem;
+}
+
+.quote{
+    text-align: left;
+    font-size: 2rem;
+    font-weight:1rem;
+    margin:0.5rem;
+    
+}
+
+.comment{
+    text-align: left;
+    font-size:1.1rem;
+    letter-spacing: 0.02rem;
+    font-weight:0.3rem ;
+    padding:0.2rem
+}
+
+.name{
+    font-size: 0.8rem;;
+    font-weight:0.0rem ;
+    padding:0.5rem;
+    padding-top:0.3rem;
+}
+
+.flexinminimise{
+    display:flex;
+}
+
+.div1{
+    display:block;
+    
+    padding:1.5rem;
+    padding-top:1rem;
+    margin:0 auto;
+    width:100%;
+
+    margin-bottom:1.8rem;
+
+}
+.left-side{
+    margin-left:0rem;
+}
+.right-side{
+    margin-right:0rem;
+}
+
+
+.price{
+   
+    font-size:2.3rem;
+    padding-right: 0.5rem;
+    padding-left:0.3rem;
+}
+.month{
+    font-size:1.5rem;
+    margin-top:0.5rem;
+}
+
+.tag{
+    font-size:1.1rem;
+    padding-top:0.4rem;
+    padding-bottom:1rem;
+}
+.topad{
+    padding-top:0.4rem;
+    padding-bottom:0.4rem;
+}
+.signup{
+    margin-left:6rem;
+    text-align:center;
+    font-size:1rem;
+    margin-right:6rem;
+}
+
     
 
 }
