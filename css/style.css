@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+   
+}
+li{
+   list-style-type: none;
+}
+
+body{
+    overflow-x: hidden;
+    font-family:'Lato', 'sans-serif' ;
+}
+a{
+    text-decoration: none;
+}
+
+.background-header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/back.jpg) ;
+    height:41rem;
+    background-repeat: no-repeat;
+   width:100%;
+    background-size:100%;
+    background-attachment: fixed;
+    max-height: 35rem;
+  
+}
+
+
+
+.navigation{
+    display:flex;
+    /* justify-content: flex-end; */
+    position:fixed;
+    /* left: 42rem; */
+    padding:0.1rem;
+    padding-top:2rem;
+    padding-left: 46rem;
+    background-color: transparent;
+   width:100%; 
+  
+}
+.bar-icon{
+    display:none;
+}
+
+
+.fixit{
+    position:fixed;
+}
+.flexit{
+    display:flex;
+}
+
+.undoflex{
+    display:inline-block;
+}
+
+.nav-line{
+font-size:0.9rem;
+margin-right: 2rem;
+margin-top: 0.4rem;
+margin-bottom: 0.8rem;
+border-bottom: 0.1rem solid transparent;
+list-style: none;
+padding-bottom: 1rem;
+
+
+}
+
+.white-anchor{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.black-anchor{
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-line:hover{
+    border-bottom: 0.1rem solid #2ecc71;
+}
+
+.tag-line{
+    color:white;
+    font-size:2.7rem;
+    font-family: sans-serif;
+    white-space: pre-wrap;
+    padding-bottom: 3.2vw;
+     margin-left:9vw;
+     top:16vw;
+    position: relative;
+    word-spacing: 0rem;
+}
+.buttons{
+    display:flex;
+  position: relative;
+  left:3.4rem;
+ top:2rem;
+  
+}
+
+.button-elements{
+font-size:1.05rem;
+padding:0.8rem;
+border: 0.1rem solid #2ecc71;
+margin-right:1.7rem;
+border-radius: 2rem;
+background-color: #2ecc71;
+transition: transform 0.35s;
+list-style: none;
+
+}
+
+
+
+
+.btn-empty{
+    color:#2ecc71;
+    background-color: transparent;
+}
+
+.button-elements:hover{
+    transform: scale(1.2);
+}
+
+.btn-empty:hover{
+    color:white;
+    background-color:#2ecc71;
+}
+
+
+.nextdiv
+{
+    font-family: 'Lato',sans-serif;
+    font-weight: 2.4rem;
+    font-size: 2rem;
+    text-align: center;
+    width:100%;
+    padding-top:5rem;
+    
+    
+
+
+}
+hr{
+
+    width: 7%;
+    display: block;
+    margin-top: 1.7rem;
+    margin-bottom: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 0.05rem solid #2ecc71 ;
+}
+
+.briefing{
+    font-weight:0.6rem;
+    font-size:1.36rem;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+   
+}
+
+.flexes{
+  width: 100%;
+  padding: 2rem;
+  display:flex;
+}
+
+.float1{
+    /* width: 25%; */
+    /* float: left; */
+    font-weight: 2rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+  
+}
+.f1inside{
+    font-weight: 3rem;
+    font-size: 1.2rem;
+   
+}
+
+
+.num{
+    border-radius: 50%;
+    border: 0.07rem solid #2ecc71;
+    margin-right:1rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    color: #2ecc71;
+    text-align: center;
+    font-size:1.7rem;
+    float:left;
+    
+}
+
+.para{
+    text-align: left;
+   margin-left: 1rem;
+   font-size: 1.2rem;
+
+}
+
+.step-container{
+    padding:1.5rem
+}
+
+.clear-fix{
+    content:"";
+   clear:both;
+   display:table;
+}
+    
+
+.text{
+text-align: left;
+color:#34495e;
+font-weight: 0.25rem;
+font-size: 1.4rem;
+padding:1rem;
+}
+
+.country-details
+{
+    text-align:center;
+    color:#34495e;
+    font-weight: 0.25rem;
+    font-size: 1.2rem;
+    margin-left:0.8rem;
+    
+}
+
+.background-next{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/pizza.jpg) ;
+    height: 100vh;
+    background-size:100%;
+  
+}
+
+.overpic{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight:0.6rem;
+}
+
+.quote{
+    text-align: left;
+    font-size: 3.4rem;
+    font-weight:1rem;
+    margin:1rem;
+    
+}
+
+.comment{
+    text-align: left;
+    font-size:1.6rem;
+    letter-spacing: 0.02rem;
+    font-weight:0.3rem ;
+    padding:0.5rem
+}
+
+.name{
+    font-size: 1rem;;
+    font-weight:0.0rem ;
+    padding:0.5rem;
+    padding-top:1.3rem;
+}
+
+
+
+
+.div1{
+    float:left;
+    padding:2.5rem;
+    padding-top:1rem;
+    margin:2.4rem;
+    width:25%;
+background-color:white;
+border-radius:2rem;
+text-align:left;
+color:darkgray;
+font-weight: 0.1rem;
+}
+
+.left-side{
+    margin-left:5.5rem;
+}
+.right-side{
+    margin-right:5rem;
+}
+
+
+
+.line1{
+    padding-bottom:1rem;
+    font-size:1.3rem;
+
+}
+.flex{
+    display:flex;
+    color:#2ecc71;
+}
+.price{
+   
+    font-size:3rem;
+    padding-right: 1rem;
+    padding-left:0.3rem;
+}
+.month{
+    font-size:1.1rem;
+    margin-top:1.8rem;
+}
+.tag{
+    font-size:1rem;
+    padding-top:0.4rem;
+    padding-bottom:1.5rem;
+}
+
+.topad{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.tick{
+    border-radius: 50%;
+    /* border: 0.07rem solid #2ecc71; */
+    background-color: white;
+    margin-right:0.5rem;
+    margin-top:0.1rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    color:#2ecc71;
+    text-align: center;
+    font-size:1.1rem;
+    float:left;
+}
+
+.features{
+    font-size:1.1rem;
+    
+}
+.signup{
+    margin-left:2rem;
+    text-align:center;
+    font-size:1rem;
+    margin-right:2rem;
+}
+
+.whiteach{
+    color:white;
+}
+
+.btn-emp1,.btn-emp2{
+    color:#2ecc71;
+    background-color: transparent;
+}
+
+
+
+.green-anchor{
+    color:#2ecc71;
+}
+
+
+
+
+
+label{
+    font-size:1rem;
+    text-align: left;
+    padding-right:20rem;
+    
+}
+
+form #name{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.4rem;
+}
+form #drop{
+    padding-right:14.2rem;
+   
+}
+
+form #checkbox{
+    padding-right:17.5rem;
+    margin: 0.4rem;
+}
+.check{
+    display: flex;;
+}
+
+form{
+    padding-top:1.8rem;
+}
+
+.form-group{
+    display:flex;
+    justify-content: left;
+    margin-left:17rem;
+    padding-top:1.2rem;
+}
+
+form #comment
+{
+    margin-top:1rem;
+    padding-right:18em;
+}
+
+.tosend{
+    padding-top:1.5rem;
+    margin-left:40rem;
+    margin-right: 34rem;
+    padding-bottom:1.8rem;
+    
+}

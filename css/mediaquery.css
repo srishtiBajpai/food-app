@@ -1,0 +1,54 @@
+
+/* mobiles */
+@media only screen and (max-width:600px)
+{
+    body{
+        overflow-x: hidden;
+    }
+    /* .background-header{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/back.jpg) ;
+        height: 100vh;
+        background-size:100%;
+        background-attachment: fixed;
+      
+    } */
+    .navigation{
+        padding-left:1rem;
+        display:flex;
+        position: fixed;
+        
+    }
+
+.nav-line{
+    padding-bottom:0.2rem;
+    display: flex;;
+ 
+  
+}
+
+     .flexes{
+         display: inline-block;
+         width:100%;
+     }
+
+     .tag-line{
+        font-size:1.5rem;
+        
+        font-weight:0.1rem;
+        padding-bottom: 3.2rem;
+       top:16rem;
+    }
+    .bar-icon{
+     display: flex;
+    font-size: 1.8rem;
+    padding-right: 3rem;
+    padding-top: 1.3rem;
+    padding-bottom:1rem;
+    justify-content: flex-end;
+    color:white;
+    background-color:transparent;
+
+}
+    
+
+}
