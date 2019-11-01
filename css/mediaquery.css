@@ -5,13 +5,13 @@
     body{
         overflow-x: hidden;
     }
-    /* .background-header{
-        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/back.jpg) ;
-        height: 100vh;
+     .background-header{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(../img/forMobile.jpg) ;
+        /* height: 100vh;
         background-size:100%;
-        background-attachment: fixed;
+        background-attachment: fixed; */
       
-    } */
+    } 
     .navigation{
         padding-left:1rem;
         display:flex;
@@ -19,6 +19,7 @@
         
     }
 
+    
 .nav-line{
     padding-bottom:0.2rem;
     display: flex;;
